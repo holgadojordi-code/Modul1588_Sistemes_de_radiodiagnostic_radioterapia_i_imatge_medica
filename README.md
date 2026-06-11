@@ -1,0 +1,2 @@
+# Modul1588_Sistemes_de_radiodiagnostic_radioterapia_i_imatge_medica
+Mòdul 1588 del cicle Formatiu d'Electrmedicina Clìnica
