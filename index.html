@@ -239,6 +239,35 @@
     to { stroke-dashoffset: 0; }
   }
 
+  /* ─── APUNTS LINK ─── */
+  .module-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+
+  .apunts-link {
+    font-size: 11px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    color: var(--accent);
+    text-decoration: none;
+    border: 1px solid #C0D8FF;
+    border-radius: 20px;
+    padding: 3px 10px;
+    background: #EEF4FF;
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: background 0.15s, border-color 0.15s;
+  }
+
+  .apunts-link:hover {
+    background: #D6E8FF;
+    border-color: var(--accent);
+  }
+
   /* ─── FOOTER ─── */
   footer {
     border-top: 1px solid var(--border);
@@ -320,7 +349,10 @@
     <div class="module">
       <span class="module-num">02</span>
       <div class="module-body">
-        <h2 class="module-title">Ecografia</h2>
+        <div class="module-header">
+          <h2 class="module-title" style="margin-bottom:0;">Ecografia</h2>
+          <a class="apunts-link" href="Ecografia_curso_2025_2026-2.pdf" target="_blank">📄 Apunts</a>
+        </div>
         <div class="module-topics">
           <span class="topic">Principis físics</span>
           <span class="topic">Utilitats</span>
